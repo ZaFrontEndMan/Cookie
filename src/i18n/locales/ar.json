@@ -1,0 +1,737 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "components": "المكونات",
+    "admin": "لوحة الإدارة"
+  },
+  "common": {
+    "welcome": "أهلاً وسهلاً",
+    "getStarted": "ابدأ الآن",
+    "learnMore": "المزيد",
+    "error": "الصفحة غير موجودة",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "add": "إضافة",
+    "submit": "إرسال",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "actions": "الإجراءات",
+    "export": "تصدير",
+    "print": "طباعة",
+    "excel": "إكسل",
+    "pdf": "PDF",
+    "previous": "السابق",
+    "next": "التالي",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "loginFailed": "فشل تسجيل الدخول",
+    "welcomeBack": "مرحباً بعودتك!",
+    "registerSuccess": "تم التسجيل بنجاح",
+    "accountCreated": "تم إنشاء حسابك.",
+    "backToDashboard": "العودة إلى لوحة التحكم",
+    "brandTitle": "Cookie Admin",
+    "brandSubtitle": "قالب لوحة تحكم مجاني ومفتوح المصدر بـ Tailwind CSS"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "theme": {
+      "title": "المظهر",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "حسب النظام"
+    },
+    "palette": {
+      "title": "لوحة الألوان"
+    },
+    "language": {
+      "title": "اللغة",
+      "english": "الإنجليزية",
+      "arabic": "العربية"
+    }
+  },
+  "hero": {
+    "title": "قالب لوحة تحكم رياكت و تايب سكريبت",
+    "subtitle": "مجموعة بداية احترافية باستخدام React + TypeScript تتميز بتصميم Fluent ولوحة تحكم للمسؤول ومكتبة مكونات كاملة. مبنية باستخدام Vite و Tailwind CSS و shadcn/ui.",
+    "description": "يشمل المصادقة، والتدويل (RTL)، وتخصيص الثيمات، والمخططات، وإدارة المنتجات.",
+    "cta": "ابدأ الآن",
+    "secondaryCta": "تعرف أكثر",
+    "dashboardPreview": "معاينة لوحة التحكم"
+  },
+  "features": {
+    "title": "الميزات الرئيسية",
+    "i18n": {
+      "title": "التدويل",
+      "description": "دعم كامل للغة العربية والإنجليزية مع تخطيط RTL"
+    },
+    "darkMode": {
+      "title": "الوضع الداكن",
+      "description": "ثيمات فاتحة ومظلمة جميلة مع انتقالات سلسة"
+    },
+    "theme": {
+      "title": "ثيم قابل للتخصيص",
+      "description": "لوحات ألوان جميلة مع أوضاع فاتحة ومظلمة وانتقالات سلسة"
+    },
+    "animations": {
+      "title": "حركات سلسة",
+      "description": "حركات مبهجة مدعومة بواسطة Framer Motion"
+    },
+    "responsive": {
+      "title": "تصميم متجاوب",
+      "description": "نهج الهاتف أولاً لضمان تجربة رائعة على جميع الأجهزة"
+    },
+    "tech": {
+      "title": "تقنيات حديثة",
+      "description": "React 18، TypeScript، Vite، Tailwind CSS، و Zustand"
+    }
+  },
+  "pages": {
+    "title": "الصفحات",
+    "about": {
+      "title": "من نحن",
+      "description": "تعرف على مهمتنا ورؤيتنا.",
+      "mission": {
+        "title": "مهمتنا",
+        "description": "إنشاء تطبيقات ويب جميلة وسهلة الوصول تخدم المستخدمين في جميع أنحاء العالم بدعم متعدد اللغات."
+      },
+      "vision": {
+        "title": "رؤيتنا",
+        "description": "أن نكون المنصة الرائدة في تطوير الويب الدولي، وكسر الحواجز اللغوية في التجارب الرقمية."
+      }
+    },
+    "services": {
+      "title": "خدماتنا",
+      "description": "حلول تطوير ويب شاملة مصممة وفقًا لاحتياجاتك.",
+      "web": {
+        "title": "تطوير الويب",
+        "description": "مواقع حديثة ومتجاوبة مبنية بأحدث التقنيات وأفضل الممارسات."
+      },
+      "mobile": {
+        "title": "تطبيقات الجوال",
+        "description": "تطبيقات جوال عبر الأنظمة توفر تجارب مستخدم استثنائية."
+      },
+      "desktop": {
+        "title": "حلول سطح المكتب",
+        "description": "تطبيقات مكتبية قوية لتلبية المتطلبات التجارية المعقدة."
+      }
+    },
+    "contact": {
+      "title": "اتصل بنا",
+      "description": "تواصل مع فريقنا.",
+      "info": {
+        "title": "معلومات الاتصال",
+        "location": "القاهرة، مصر"
+      },
+      "form": {
+        "name": "اسمك",
+        "email": "بريدك الإلكتروني",
+        "message": "رسالتك",
+        "send": "إرسال الرسالة",
+        "submit": "إرسال عبر البريد الإلكتروني",
+        "whatsapp": "إرسال عبر واتساب",
+        "namePlaceholder": "أدخل اسمك",
+        "emailPlaceholder": "أدخل بريدك الإلكتروني",
+        "messagePlaceholder": "أدخل رسالتك"
+      }
+    },
+    "components": {
+      "description": "استعرض مكتبة المكونات الشاملة",
+      "buttons": {
+        "header": {
+          "title": "مكوّنات الأزرار",
+          "description": "استعرض أنماط وميزات الأزرار المختلفة لتطبيقك"
+        },
+        "variants": {
+          "title": "أنواع الأزرار",
+          "description": "أنواع مختلفة للزر الأساسي",
+          "filled": "ممتلئ",
+          "outline": "محدد",
+          "ghost": "شبح",
+          "link": "رابط"
+        },
+        "colors": {
+          "title": "ألوان الأزرار",
+          "description": "أنظمة ألوان مختلفة للأزرار الممتلئة",
+          "primary": "أساسي",
+          "secondary": "ثانوي",
+          "danger": "خطر",
+          "warning": "تحذير",
+          "success": "نجاح"
+        },
+        "sizes": {
+          "title": "أحجام الأزرار",
+          "description": "أحجام مختلفة للاستخدامات المتنوعة",
+          "small": "صغير",
+          "default": "افتراضي",
+          "large": "كبير"
+        },
+        "tooltips": {
+          "title": "أزرار بأيقونات وتلميحات",
+          "description": "أزرار مع أيقونات وتلميحات في أوضاع مختلفة",
+          "button": "مرر المؤشر",
+          "top": "تلميح في الأعلى",
+          "bottom": "تلميح في الأسفل",
+          "left": "تلميح في اليسار",
+          "right": "تلميح في اليمين"
+        }
+      },
+      "cards": {
+        "title": "بطاقات",
+        "description": "حاويات محتوى مرنة",
+        "examples": {
+          "title": "أمثلة البطاقات",
+          "description": "تخطيطات بطاقات مختلفة وأمثلة محتوى",
+          "basic": {
+            "title": "بطاقة أساسية",
+            "description": "بطاقة بسيطة مع رأس ومحتوى",
+            "content": "هذا مثال على بطاقة أساسية بمحتوى بسيط."
+          },
+          "interactive": {
+            "title": "بطاقة تفاعلية",
+            "description": "بطاقة مع عناصر تفاعلية",
+            "content": "تشمل هذه البطاقة عناصر تفاعلية مثل الأزرار.",
+            "action_button": "اعرف المزيد"
+          }
+        }
+      },
+      "charts": {
+        "title": "مخططات",
+        "description": "تصور البيانات مع مخططات تفاعلية",
+        "lineChart": "مخطط خطي",
+        "lineChartDescription": "تصور اتجاهات البيانات الشهرية",
+        "barChart": "مخطط شريطي",
+        "barChartDescription": "مقارنة مبيعات المنتجات",
+        "pieChart": "مخطط دائري",
+        "pieChartDescription": "توزيع استخدام الأجهزة"
+      },
+      "tables": {
+        "title": "جداول",
+        "description": "تنظيم وعرض البيانات في صفوف وأعمدة",
+        "examples": {
+          "title": "أمثلة الجداول",
+          "description": "جدول مثال ببيانات المستخدمين",
+          "header": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "role": "الدور",
+            "status": "الحالة"
+          },
+          "data": {
+            "name1": "جون دو",
+            "email1": "john@example.com",
+            "role1": "مدير",
+            "status1": "نشط",
+            "name2": "جين سميث",
+            "email2": "jane@example.com",
+            "role2": "مستخدم",
+            "status2": "غير نشط"
+          }
+        }
+      },
+      "inputs": {
+        "title": "حقول الإدخال",
+        "description": "مكونات إدخال النماذج لإدخال بيانات المستخدم",
+        "examples": {
+          "title": "أمثلة الحقول",
+          "description": "أنواع حالات إدخال مختلفة",
+          "text": {
+            "label": "حقل نص",
+            "placeholder": "أدخل النص"
+          },
+          "email": {
+            "label": "حقل بريد إلكتروني",
+            "placeholder": "أدخل البريد الإلكتروني"
+          },
+          "password": {
+            "label": "حقل كلمة المرور",
+            "placeholder": "أدخل كلمة المرور"
+          },
+          "number": {
+            "label": "حقل رقم",
+            "placeholder": "أدخل رقم"
+          },
+          "search": {
+            "label": "حقل بحث",
+            "placeholder": "بحث..."
+          },
+          "disabled": {
+            "label": "حقل معطل",
+            "placeholder": "هذا الحقل معطل"
+          }
+        }
+      },
+      "forms": {
+        "title": "نماذج",
+        "description": "نماذج الإدخال والتحقق من النماذج",
+        "examples": {
+          "title": "أمثلة النماذج",
+          "description": "نموذج مثال مع أنواع إدخال مختلفة",
+          "basic": {
+            "name": "الاسم",
+            "namePlaceholder": "أدخل اسمك",
+            "email": "البريد الإلكتروني",
+            "emailPlaceholder": "أدخل بريدك الإلكتروني",
+            "category": "الفئة",
+            "categoryPlaceholder": "اختر فئة",
+            "submit": "إرسال"
+          }
+        }
+      },
+      "tabs": {
+        "title": "تبويبات",
+        "description": "تنظيم المحتوى في أقسام متعددة",
+        "examples": {
+          "title": "أمثلة التبويبات",
+          "description": "أمثلة تبويبات تفاعلية بمحتوى مختلف",
+          "tab1": {
+            "title": "نظرة عامة",
+            "content": "هذا محتوى تبويب النظرة العامة."
+          },
+          "tab2": {
+            "title": "تفاصيل",
+            "content": "هذا محتوى تبويب التفاصيل."
+          },
+          "tab3": {
+            "title": "الإعدادات",
+            "content": "هذا محتوى تبويب الإعدادات."
+          }
+        }
+      },
+      "toggle": {
+        "title": "مفاتيح التبديل",
+        "description": "مكونات التبديل للحالات الثنائية",
+        "examples": {
+          "title": "أمثلة المفاتيح",
+          "description": "أمثلة مفاتيح تبديل مختلفة وحالات",
+          "default": {
+            "label": "مفتاح تبديل افتراضي",
+            "description": "مفتاح تبديل قياسي"
+          },
+          "disabled": {
+            "label": "مفتاح تبديل معطل",
+            "description": "مفتاح تبديل لا يمكن التفاعل معه"
+          }
+        }
+      },
+      "alerts": {
+        "title": "تنبيهات",
+        "description": "عرض الرسائل والإشعارات المهمة",
+        "alertVariants": "أنواع التنبيهات",
+        "alertVariantsDescription": "أنواع مختلفة من التنبيهات للحالات المختلفة",
+        "infoTitle": "معلومات",
+        "infoDescription": "هذا تنبيه إعلامي مع سياق إضافي.",
+        "errorTitle": "خطأ",
+        "errorDescription": "حدث خطأ ما. يرجى المحاولة مرة أخرى لاحقًا.",
+        "successTitle": "نجاح",
+        "successDescription": "تم إكمال إجراءك بنجاح.",
+        "warningTitle": "تحذير",
+        "warningDescription": "يرجى مراجعة هذه المعلومات بعناية قبل المتابعة.",
+        "simpleAlerts": "تنبيهات بسيطة",
+        "simpleAlertsDescription": "تنبيهات بدون عناوين للرسائل البسيطة",
+        "simpleInfo": "هذه رسالة إعلامية بسيطة.",
+        "simpleError": "لا يمكن التراجع عن هذا الإجراء."
+      },
+      "badges": {
+        "title": "شارات",
+        "description": "عرض التسميات ومؤشرات الحالة",
+        "badgeSizes": "أحجام الشارات",
+        "badgeSizesDescription": "أحجام شارات مختلفة",
+        "badgeVariants": "أنواع الشارات",
+        "badgeVariantsDescription": "أنماط شارات مختلفة",
+        "badgeColors": "ألوان الشارات",
+        "badgeColorsDescription": "شارات ملونة لمؤشرات الحالة",
+        "highContrastBadges": "شارات عالية التباين",
+        "highContrastBadgesDescription": "شارات بخيار تباين عالي",
+        "highContrastSuccess": "نجاح عالي التباين",
+        "highContrastWarning": "تحذير عالي التباين",
+        "highContrastDanger": "خطر عالي التباين",
+        "normalContrast": "تباين عادي",
+        "badgeRadius": "نصف قطر الشارة",
+        "badgeRadiusDescription": "خيارات نصف قطر زاوية مختلفة",
+        "noRadius": "بدون نصف قطر",
+        "smallRadius": "نصف قطر صغير",
+        "mediumRadius": "نصف قطر متوسط",
+        "largeRadius": "نصف قطر كبير",
+        "fullRadius": "نصف قطر كامل",
+        "badgeExamples": "أمثلة الشارات",
+        "badgeExamplesDescription": "أمثلة استخدام واقعية",
+        "admin": "مدير",
+        "completed": "مكتمل",
+        "online": "متصل",
+        "notifications": "الإشعارات"
+      },
+      "avatars": {
+        "title": "صور رمزية",
+        "description": "صور ملفات المستخدمين وأحرف احتياطية",
+        "avatarSizes": "أحجام الصور الرمزية",
+        "avatarSizesDescription": "أحجام صور رمزية مختلفة لاستخدامات متنوعة",
+        "avatarExamples": "أمثلة الصور الرمزية",
+        "avatarExamplesDescription": "أمثلة استخدام واقعية مع أحرف احتياطية مختلفة",
+        "avatarGroup": "مجموعة صور رمزية",
+        "avatarGroupDescription": "صور رمزية متعددة معروضة معًا"
+      },
+      "accordion": {
+        "title": "قوائم منسدلة",
+        "description": "أقسام محتوى قابلة للطي",
+        "faqAccordion": "قائمة أسئلة متكررة منسدلة",
+        "faqAccordionDescription": "أسئلة متكررة مع إجابات قابلة للتوسيع",
+        "returnPolicyQuestion": "ما هي سياسة الإرجاع الخاصة بك؟",
+        "returnPolicyAnswer": "نوفر سياسة إرجاع لمدة 30 يومًا لجميع العناصر. يجب أن تكون العناصر بحالة أصلية مع وجود العلامات المرفقة.",
+        "shippingQuestion": "كم تستغرق عملية الشحن؟",
+        "shippingAnswer": "الشحن العادي يستغرق 3-5 أيام عمل. الشحن السريع متاح لمدة 1-2 أيام عمل.",
+        "internationalShippingQuestion": "هل تقدمون شحن دولي؟",
+        "internationalShippingAnswer": "نعم، نشحن دوليًا لمعظم البلدان. تختلف تكاليف الشحن وأوقات التسليم حسب الوجهة.",
+        "singleSelection": "قائمة منسدلة باختيار واحد",
+        "singleSelectionDescription": "يمكن فتح عنصر واحد فقط في كل مرة",
+        "gettingStarted": "البدء",
+        "gettingStartedContent": "تعلم أساسيات استخدام منصتنا من خلال هذا الدليل الشامل.",
+        "advancedFeatures": "ميزات متقدمة",
+        "advancedFeaturesContent": "اكتشف الميزات المتقدمة وخيارات التخصيص المتاحة.",
+        "troubleshooting": "استكشاف الأخطاء",
+        "troubleshootingContent": "المشاكل الشائعة وحلولها لمساعدتك على العودة إلى المسار الصحيح."
+      }
+    },
+    "auth": {
+      "login": {
+        "title": "تسجيل الدخول",
+        "subtitle": "مرحباً بعودتك! يرجى تسجيل الدخول إلى حسابك",
+        "emailPlaceholder": "أدخل بريدك الإلكتروني",
+        "passwordPlaceholder": "أدخل كلمة المرور",
+        "rememberMe": "تذكرني",
+        "forgotPassword": "هل نسيت كلمة المرور؟",
+        "noAccount": "ليس لديك حساب؟",
+        "signUp": "سجل الآن",
+        "signingIn": "جاري تسجيل الدخول...",
+        "orContinueWith": "أو تابع باستخدام",
+        "continueWithAzure": "تابع مع Azure",
+        "continueWithLinkedIn": "تابع مع LinkedIn",
+        "socialLoginError": "فشل تسجيل الدخول الاجتماعي. يرجى المحاولة مرة أخرى."
+      },
+      "register": {
+        "title": "إنشاء حساب",
+        "subtitle": "سجل حساباً جديداً",
+        "fullName": "الاسم الكامل",
+        "fullNamePlaceholder": "أدخل اسمك الكامل",
+        "confirmPassword": "تأكيد كلمة المرور",
+        "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور",
+        "terms": "أوافق على الشروط والأحكام",
+        "hasAccount": "لديك حساب؟",
+        "signIn": "تسجيل الدخول",
+        "registering": "جاري إنشاء الحساب...",
+        "orContinueWith": "أو تابع باستخدام",
+        "continueWithAzure": "تابع مع Azure",
+        "continueWithLinkedIn": "تابع مع LinkedIn"
+      }
+    },
+    "products": {
+      "title": "المنتجات",
+      "addProduct": "إضافة منتج",
+      "editProduct": "تعديل المنتج",
+      "productList": "قائمة المنتجات",
+      "productName": "اسم المنتج",
+      "productDescription": "وصف المنتج",
+      "price": "السعر",
+      "category": "الفئة",
+      "stock": "المخزون",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "noProducts": "لا توجد منتجات",
+      "manageInventory": "إدارة مخزون المنتجات وتفاصيلها",
+      "createNewProduct": "إنشاء منتج جديد للمخزون",
+      "fillProductDetails": "املأ تفاصيل المنتج أدناه",
+      "selectCategory": "اختر الفئة",
+      "loadingProducts": "جاري تحميل المنتجات...",
+      "noProductsMessage": "لا توجد منتجات. أضف منتجك الأول للبدء.",
+      "deleteConfirm": "هل أنت متأكد من حذف هذا المنتج؟",
+      "saving": "جاري الحفظ..."
+    },
+    "profile": {
+      "title": "الملف الشخصي",
+      "subtitle": "إدارة إعدادات حسابك ومعلومات الملف الشخصي",
+      "profileInformation": "معلومات الملف الشخصي",
+      "updateProfileDetails": "تحديث تفاصيل ملفك الشخصي ومعلوماتك الشخصية",
+      "changeAvatar": "تغيير الصورة الرمزية",
+      "avatarFileTypes": "JPG أو GIF أو PNG. الحد الأقصى 1 ميجابايت.",
+      "fullName": "الاسم الكامل",
+      "bio": "السيرة الذاتية",
+      "bioPlaceholder": "أخبرنا عن نفسك...",
+      "location": "الموقع",
+      "locationPlaceholder": "المدينة، البلد",
+      "website": "الموقع الإلكتروني",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "updateProfile": "تحديث الملف الشخصي"
+    },
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "description": "نظرة عامة على أقسام لوحة التحكم الخاصة بك",
+      "dashboardPages": "صفحات لوحة التحكم",
+      "dashboardPagesDescription": "تخطيطات لوحة تحكم جاهزة للاستخدام مع تصورات بيانات متنوعة",
+      "exploreDashboards": "استكشف قوالب لوحة التحكم الخاصة بنا بما في ذلك:",
+      "uiElements": "عناصر واجهة المستخدم",
+      "uiElementsDescription": "مجموعة شاملة من مكونات واجهة المستخدم",
+      "exploreComponents": "استكشف مكتبتنا الكاملة من مكونات واجهة المستخدم بما في ذلك:"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "menu": "القائمة",
+    "analytics": {
+      "link": "تحليلات",
+      "overview": "نظرة عامة على التحليلات",
+      "title": "تتبع وتحليل أداء منصتك",
+      "totalUsers": "إجمالي المستخدمين",
+      "revenue": "الإيرادات",
+      "orders": "الطلبات",
+      "growth": "معدل النمو",
+      "vsLastMonth": "مقارنة بالشهر الماضي",
+      "userActivity": "نشاط المستخدم",
+      "monthly": "شهريًا",
+      "quarterly": "ربع سنوي",
+      "annually": "سنويًا",
+      "revenueChart": "اتجاهات الإيرادات",
+      "revenueDescription": "أداء الإيرادات الشهرية مع مرور الوقت",
+      "userGrowth": "نمو المستخدمين",
+      "userGrowthDescription": "معدل اكتساب المستخدمين الجدد مع مرور الوقت",
+      "conversionRate": "معدل التحويل",
+      "conversionDescription": "اتجاهات معدل التحويل وتحسينه",
+      "performance": "تحليل الأداء",
+      "performanceDescription": "مقاييس وتحليلات الأداء التفصيلية"
+    },
+    "ecommerce": {
+      "link": "التجارة الإلكترونية",
+      "overview": "لوحة تحكم التجارة الإلكترونية",
+      "title": "تتبع أداء أعمالك",
+      "customers": "العملاء",
+      "orders": "الطلبات",
+      "monthlySales": "المبيعات الشهرية",
+      "salesDescription": "اتجاهات الإيرادات وأداء المبيعات",
+      "monthlyTarget": "الهدف الشهري",
+      "targetDescription": "التقدم نحو أهداف المبيعات الشهرية",
+      "targetMessage1": "لقد ربحت 3287 دولارًا اليوم، وهذا أعلى من الشهر الماضي.",
+      "targetMessage2": "استمر في عملك الجيد!",
+      "orderVolume": "حجم الطلبات",
+      "orderDescription": "أحجام الطلبات اليومية واتجاهاتها",
+      "customerAcquisition": "اكتساب العملاء",
+      "acquisitionDescription": "اتجاهات اكتساب العملاء الجدد",
+      "target": "الهدف",
+      "revenue": "الإيرادات",
+      "today": "اليوم"
+    },
+    "overview": {
+      "overview": "نظرة عامة",
+      "link": "نظرة عامة",
+      "title": "نظرة عامة على لوحة التحكم",
+      "totalRevenue": "إجمالي الإيرادات",
+      "activeUsers": "المستخدمون النشطون",
+      "customerLifetimeValue": "قيمة العميل مدى الحياة",
+      "customerAcquisitionCost": "تكلفة اكتساب العميل",
+      "vsLastMonth": "مقارنة بالشهر الماضي",
+      "churnRate": {
+        "title": "معدل فقدان العملاء",
+        "description": "تحليل معدل فقدان العملاء واتجاهاته",
+        "comparison": "مقارنة بالأسبوع الماضي"
+      },
+      "userGrowth": {
+        "title": "نمو المستخدمين",
+        "description": "مقاييس وتوقعات نمو المستخدمين",
+        "comparison": "مقارنة بالأسبوع الماضي"
+      },
+      "marketAnalysis": "تحليل السوق",
+      "marketDescription": "اتجاهات السوق ومؤشرات الأداء",
+      "table": {
+        "title": "أداء المنتجات",
+        "subtitle": "نظرة عامة على جميع المنتجات ومقاييس أدائها الحالية",
+        "productName": "اسم المنتج",
+        "category": "الفئة",
+        "revenue": "الإيرادات",
+        "growth": "النمو",
+        "status": "الحالة"
+      },
+      "products": {
+        "digitalMarketingSuite": "مجموعة التسويق الرقمي",
+        "analyticsDashboard": "لوحة تحليلات",
+        "ecommercePlatform": "منصة التجارة الإلكترونية",
+        "mobileAppBuilder": "منشئ تطبيقات الجوال",
+        "seoOptimizer": "محسن SEO",
+        "socialMediaManager": "مدير الوسائط الاجتماعية",
+        "emailCampaignTool": "أداة الحملات البريدية",
+        "customerSupportChat": "دردشة دعم العملاء"
+      },
+      "categories": {
+        "software": "برمجيات",
+        "analytics": "تحليلات",
+        "platform": "منصة",
+        "development": "تطوير",
+        "marketing": "تسويق",
+        "social": "اجتماعي",
+        "support": "دعم"
+      },
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      }
+    },
+    "description": "نظرة عامة على عمليات التوصيل",
+    "stats": {
+      "totalOrders": "إجمالي الطلبات",
+      "ordersInTransit": "الطلبات قيد التوصيل",
+      "deliveredOrders": "الطلبات المسلمة"
+    },
+    "deliveryStatistics": {
+      "title": "إحصائيات التوصيل",
+      "description": "إجمالي عدد التوصيلات",
+      "monthly": "شهري",
+      "yearly": "سنوي",
+      "shipment": "الشحنات",
+      "delivery": "التوصيل",
+      "totalRevenue": "إجمالي الإيرادات المحققة",
+      "shippedQuantities": "الكميات المشحونة"
+    },
+    "vehicles": {
+      "title": "مركبات التوصيل",
+      "description": "المركبات العاملة على الطريق",
+      "weeklyChange": "من الأسبوع الماضي",
+      "onRoute": "في الطريق"
+    },
+    "tracking": {
+      "title": "تتبع التوصيل",
+      "description": "آخر سجل توصيل تم عرضه",
+      "trackingId": "رقم التتبع",
+      "viewLargerMap": "عرض خريطة أكبر",
+      "pickedUp": "تم الاستلام",
+      "inTransit": "قيد النقل",
+      "delivered": "تم التسليم",
+      "courier": "المندوب"
+    },
+    "activities": {
+      "title": "أنشطة التوصيل",
+      "all": "الكل",
+      "delivered": "تم التسليم",
+      "inTransit": "قيد النقل",
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "orderId": "رقم الطلب",
+      "category": "الفئة",
+      "company": "الشركة",
+      "arrivalTime": "وقت الوصول",
+      "route": "المسار",
+      "price": "السعر",
+      "status": "الحالة",
+      "canceled": "ملغي"
+    },
+    "demographics": {
+      "title": "التوزيع الجغرافي للعملاء",
+      "description": "عدد العملاء حسب الدولة",
+      "customers": "عملاء"
+    },
+    "recentOrders": {
+      "title": "الطلبات الأخيرة",
+      "seeAll": "عرض الكل",
+      "variants": "متغيرات"
+    }
+  },
+  "aiAssistant": {
+    "title": "المساعد الذكي",
+    "newChat": "محادثة جديدة",
+    "search": "البحث في المحادثات...",
+    "noChats": "لا توجد محادثات بعد",
+    "noResults": "لا توجد محادثات مطابقة",
+    "history": {
+      "today": "اليوم",
+      "yesterday": "أمس"
+    },
+    "composer": {
+      "placeholder": "اكتب رسالتك...",
+      "send": "إرسال",
+      "attach": "إرفاق ملف"
+    },
+    "actions": {
+      "copy": "نسخ",
+      "download": "تحميل",
+      "retry": "إعادة المحاولة",
+      "clear": "مسح المحادثة"
+    },
+    "clearConfirm": {
+      "title": "مسح هذه المحادثة؟",
+      "description": "سيتم حذف جميع الرسائل في هذه المحادثة نهائياً. لا يمكن التراجع عن هذا الإجراء."
+    },
+    "emptyState": {
+      "title": "ابدأ محادثة",
+      "description": "أرسل رسالة للبدء"
+    },
+    "errors": {
+      "sendFailed": "فشل إرسال الرسالة. يرجى المحاولة مرة أخرى."
+    },
+    "generators": {
+      "text": {
+        "title": "مولد النصوص",
+        "description": "إنشاء محتوى نصي إبداعي بمساعدة الذكاء الاصطناعي",
+        "placeholder": "صف ما تريد إنشاءه..."
+      },
+      "code": {
+        "title": "مولد الأكواد",
+        "description": "إنشاء أكواد برمجية وحلول بمساعدة الذكاء الاصطناعي",
+        "placeholder": "صف الكود الذي تحتاجه..."
+      },
+      "image": {
+        "title": "مولد الصور",
+        "description": "إنشاء صور من الأوصاف النصية",
+        "placeholder": "صف الصورة التي تريد إنشاءها..."
+      },
+      "video": {
+        "title": "مولد الفيديو",
+        "description": "إنشاء مقاطع فيديو من النصوص",
+        "placeholder": "صف الفيديو الذي تريد إنشاءه..."
+      }
+    }
+  },
+  "components": {
+    "title": "المكونات",
+    "buttons": "أزرار",
+    "cards": "بطاقات",
+    "forms": "نماذج",
+    "inputs": "حقول الإدخال",
+    "tables": "جداول",
+    "tabs": "تبويبات",
+    "alerts": "تنبيهات",
+    "badges": "شارات",
+    "toggle": "مفاتيح تبديل",
+    "accordion": "قوائم منسدلة",
+    "avatars": "صور رمزية",
+    "charts": "مخططات"
+  },
+  "user": {
+    "myAccount": "حسابي",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "billing": "الفواتير",
+    "security": "الأمان",
+    "support": "الدعم",
+    "logout": "تسجيل الخروج"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "viewAll": "عرض جميع الإشعارات",
+    "noNotifications": "لا توجد إشعارات",
+    "markAllAsRead": "وضع علامة مقروء على الكل",
+    "newOrder": "طلب جديد",
+    "systemUpdate": "تحديث النظام",
+    "lowStockAlert": "تنبيه مخزون منخفض",
+    "orderReceived": "لقد استلمت طلبًا جديدًا #1234",
+    "maintenanceScheduled": "تم جدولة صيانة النظام لهذه الليلة",
+    "inventoryLow": "مخزون المنتج منخفض"
+  }
+}
